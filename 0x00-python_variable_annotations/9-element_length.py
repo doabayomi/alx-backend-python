@@ -3,7 +3,7 @@ from typing import Iterable, Sequence, Tuple
 """Duck typing iterable object"""
 
 
-def element_length(lst: Iterable[Sequence]) -> Iterable[Tuple[Sequence, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """Returns an expanded view of an iterable object
 
     Args:
