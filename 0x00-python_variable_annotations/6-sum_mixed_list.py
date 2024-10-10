@@ -2,7 +2,8 @@
 from typing import List
 """Sum of elements in mixed list"""
 
-def sum_mixed_list(mxd_lst: List[int, float]) -> float:
+
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     """Returns sum of elements in mixed list
 
     Args:

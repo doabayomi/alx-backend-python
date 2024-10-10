@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from collections.abc import Callable
+from typing import Callable
 """Function to make a custom multiply function"""
 
 
