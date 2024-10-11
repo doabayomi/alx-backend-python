@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-from typing import Iterable, Sequence, Tuple, List
 """Duck typing iterable object"""
+from typing import Iterable, Sequence, Tuple, List
 
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
