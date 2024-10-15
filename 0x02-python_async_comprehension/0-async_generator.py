@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Creating asynchronous generator"""
+"""Creating an synchronous generator yielding numbers"""
 import asyncio
 import random
 from typing import AsyncGenerator
@@ -8,11 +8,8 @@ from typing import AsyncGenerator
 async def async_generator() -> AsyncGenerator[float, None]:
     """Loops 10 times and yields a random number
 
-    Returns:
-        None
-
     Yields:
-        A random number between 0 and 10
+        float: A random number between 0 and 10
     """
     for _ in range(10):
         await asyncio.sleep(1)
