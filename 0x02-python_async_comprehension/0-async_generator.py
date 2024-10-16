@@ -2,10 +2,10 @@
 """Creating an synchronous generator yielding numbers"""
 import asyncio
 import random
-from typing import AsyncGenerator
+from typing import Generator
 
 
-async def async_generator() -> AsyncGenerator[float, None]:
+async def async_generator() -> Generator[float, None, None]:
     """Loops 10 times and yields a random number
 
     Yields:
